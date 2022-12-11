@@ -1,5 +1,5 @@
 const { chromium } = require('playwright')
-const expect = require('chai').expect                                    // chai library for creating assertions
+const expect = require('chai').expect                                                // chai library for creating assertions
 
 let browser
 let page
@@ -26,4 +26,4 @@ it('Verifying that header is displayed', async () => {
 })
 
 
-// npm run test                                                                   // script is written in 'package.json' file
+// npm run test                                                                          script is written in 'package.json' file
